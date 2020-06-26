@@ -1,0 +1,28 @@
+{
+  "name": "Weaddress - VN address standardizer",
+  "description": "Weaddress - VN address standardizer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "icons": {
+    "16": "assets/icons/weaddress-16.png",
+    "32": "assets/icons/weaddress-32.png",
+    "48": "assets/icons/weaddress-48.png",
+    "128": "assets/icons/weaddress-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "VN address standardizer",
+    "default_popup": "index.html"
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
